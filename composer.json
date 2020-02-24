@@ -1,0 +1,19 @@
+{
+    "name": "robbykotulla/ms-teams-incoming-webhook",
+    "description": "Send messages to Microsoft Teams directly from your PHP application.",
+    "authors": [
+        {
+            "name": "Robby Kotulla",
+            "email": "git@robby-kotulla.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "robbykotulla\\MSTeamsIncomingWebhook\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "minimum-stability": "dev"
+}
